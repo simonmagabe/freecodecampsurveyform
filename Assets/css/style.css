@@ -1,5 +1,5 @@
 body {
-    width: 35%;
+    width: 50%;
     height: 100vh;
     background-color: rgb(199, 241, 232);
     position: relative;
@@ -15,6 +15,10 @@ body {
 * {
     box-sizing: border-box;
     font-family: sans-serif;
+}
+
+form {
+    margin: 20px auto;
 }
 
 #title {
@@ -40,7 +44,7 @@ input[type=text], input[type=email], input[type=number]{
 }
 
 select {
-    width: 10vw;
+    width: 8vw;
     height: 4vh;
     border: 1px solid #cccccc;
     border-radius: 4px;
@@ -94,8 +98,8 @@ textarea {
         font-size: 2em;
     }
 
-    input[type=text], input[type=number]{
-        width: 18vw;
+    input[type=text], input[type=number], input[type=email]{
+        width: 30vw;
         height: 3vh;
     }
 
@@ -112,7 +116,7 @@ textarea {
     }
 
     select {
-        width: 20vw;
+        width: 30vw;
         height: 3vh;
     }
 }
