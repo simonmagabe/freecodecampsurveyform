@@ -11,24 +11,33 @@
         <main class="container">
             <p id="description">Let Us know how we can improve freeCodeCamp</p>
             <form action="" method="GET" id="survey-form">
-                <div id="survey-form">
-                    <label for="name" id="name-label">Name:</label>
+                <div>
+                    <div>
+                        <label for="name" id="name-label">Name:</label>
+                    </div>
                     <input type="text" id="name" required placeholder="Enter your name">
                 </div>
 
-                <div id="survey-form">
-                    <label for="email" id="email-label">Email:</label>
+                <div>
+                    <div>
+                        <label for="email" id="email-label">Email: </label>
+                    </div>
                     <input type="email" id="email" required placeholder="Enter your email">
                 </div>
 
-                <div id="survey-form">
-                    <label for="age" id="number-label">Age:</label>
+                <div>
+                    <div>
+                        <label for="age" id="number-label">Age:</label>
+                    </div>
                     <input type="number" id="number" min="1" max="99" required placeholder="Age">
                 </div>
 
-                <div id="survey-form">
-                    <label for="dropdown">Which option best describe your current role?</label>
-                    <select name="role" id="dropdown">Select an option
+                <div>
+                    <div>
+                        <label for="dropdown">Which option best describe your current role?</label>
+                    </div>
+                    <select name="role" id="dropdown">
+                        <option a value="" disabled selected>Select an option</option>
                         <option value="student">Student</option>
                         <option value="fulltimejob">Full Time Job</option>
                         <option value="fulltimelearner">Full Time Learner</option>
@@ -37,7 +46,7 @@
                     </select>
                 </div>
 
-                <div id="survey-form">
+                <div>
                     <div>
                         <label>How likely is that you would recommend freeCodeCamp to a friend?</label>
                     </div>
@@ -56,10 +65,12 @@
                 </div>
                 
 
-                <div id="survey-form">
-                    <label>What do you like most in FCC?</label>
+                <div>
+                    <div>
+                        <label>What do you like most in FCC?</label>
+                    </div>
                     <select name="preferance" id="preference">
-                        <option value="">Select an option</option>
+                        <option value="" disabled selected>Select an option</option>
                         <option value="challenges">Challenges</option>
                         <option value="projects">Projects</option>
                         <option value="community">Community</option>
@@ -67,8 +78,10 @@
                     </select>
                 </div>
 
-                <div id="survey-form">
-                    <label>Things that should be improved in the future (Check all that apply):</label>
+                <div>
+                    <div>
+                        <label>Things that should be improved in the future (Check all that apply):</label>
+                    </div>
                     
                     <div>
                         <input type="checkbox" name="improvements" value="front-end-projects">
@@ -130,10 +143,10 @@
                     <div>
                         <label for="comments">Any Comments or Suggestions?</label>
                     </div>
-                    <textarea type="text-area" id="comments" name="comment" rows="5" cols="45"></textarea>
+                    <textarea type="text-area" id="comments" name="comment" rows="5" cols="75"></textarea>
                 </div>
 
-                <div id="survey-form">
+                <div>
                     <input type="submit" id="submit">
                 </div>
             </form>
