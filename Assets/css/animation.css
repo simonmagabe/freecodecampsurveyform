@@ -1,0 +1,8 @@
+/* submit button animation */
+@keyframes submit-background {
+    100%{
+        background-color: rgb(29, 115, 150);
+        color: beige;
+    }
+}
+/* End of submit button animation */

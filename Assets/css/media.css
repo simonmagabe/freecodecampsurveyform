@@ -1,0 +1,100 @@
+@media screen and (max-width: 600px) {
+    .column {
+        width: 70vw;
+        padding: 10px;
+        margin: 1px auto;
+    }
+    
+    .left {
+        text-align: justify;
+    }
+
+    div {
+        padding: 0px;
+    }
+
+    label {
+        word-spacing: 0em;
+    }
+    
+}
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        margin: 95px auto;
+    }
+   .column {
+        width: 70vw;
+        padding: 10px;
+        margin: 1px auto;
+    }
+    
+    .left {
+        text-align: justify;
+    }
+
+    input[type=text], input[type=email], input[type=number] {
+        width: 50vw;
+        height: 2.5em;;
+        font-size: 1em;
+        font-size: 1em;
+        margin-left: 20px;
+    }
+
+    select {
+        width: 30vw;
+        height: 2.5em;;
+    }
+
+    textarea {
+        width: 45vw;
+    }
+
+    input[type=submit]{
+        width: 20vw;
+        height: 40px;
+    }
+
+    label, input[placeholder] {
+        font-size: 0.9em;
+        word-spacing: 0em;
+    }
+
+    option {
+        font-size: 0.7em;
+    }
+
+    input[type=submit] {
+        margin: 50px auto 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .column {
+        width: 75vw;
+    }
+    
+    .left {
+        text-align: justify;
+    }
+
+    input[type=text], input[type=email], input[type=number] {
+        width: 1vw;
+    }
+
+    select {
+        width: 20vw;
+    }
+
+    textarea {
+        width: 45vw;
+    }
+
+    label {
+        word-spacing: 0em;
+    }
+}
